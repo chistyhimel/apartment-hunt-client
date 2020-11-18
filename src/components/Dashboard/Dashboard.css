@@ -1,0 +1,18 @@
+.header-container {
+    position: relative;
+    background-image: url("../../images/banner-bg-transparent.png");
+    background-size: cover;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .header-container::after {
+    height: 90vh;
+    content: " ";
+    position: absolute;
+    top: 0;
+    width: 33%;
+    right: 0;
+    background-color: #3a4256;
+    z-index: -50;
+  }

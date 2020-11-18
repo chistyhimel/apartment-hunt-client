@@ -1,0 +1,64 @@
+/* Header container */
+.header-bg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.603), rgba(0, 0, 0, 0.623)),
+    url("../../images/banner-img.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 65vh;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+}
+.header-content {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+/* Footer container */
+.footer-container{
+  padding: 50px 0px;
+}
+.footer-container h6{
+font-weight: 200;
+}
+
+/* Background-color */
+.bg-color{
+  background-color: #E5E5E5 !important;
+}
+/* Button */
+.btn-colour-1 {
+  color: #fff !important;
+  background-color: #275a53 !important;
+  border-color: #004e64;
+  padding: 10px 30px;
+  letter-spacing: 0.05em;
+  border-radius: 0;
+}
+
+.btn-colour-1:hover,
+.btn-colour-1:active,
+.btn-colour-1:focus,
+.btn-colour-1.active {
+  /* let's darken #004E64 a bit for hover effect */
+  background: #003d4f;
+  color: #ffffff;
+  border-color: #003d4f;
+}
+
+/* Text-color */
+.text-color{
+  color: #275A53;
+}
+
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .input-group{
+    width: 700px !important;
+  }
+}
